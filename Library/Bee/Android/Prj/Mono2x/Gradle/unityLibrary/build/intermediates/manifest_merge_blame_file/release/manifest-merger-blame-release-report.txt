@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="1.0.2" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="34" />
+10-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-52
+12-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-49
+13    <uses-feature
+13-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-63
+15        android:required="false" />
+15-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:64-88
+16    <uses-feature
+16-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-88
+17        android:name="android.hardware.touchscreen"
+17-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-60
+18        android:required="false" />
+18-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:61-85
+19    <uses-feature
+19-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-99
+20        android:name="android.hardware.touchscreen.multitouch"
+20-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-71
+21        android:required="false" />
+21-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:72-96
+22    <uses-feature
+22-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-108
+23        android:name="android.hardware.touchscreen.multitouch.distinct"
+23-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-80
+24        android:required="false" />
+24-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:81-105
+25
+26    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+26-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-75
+26-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:20-72
+27
+28    <application android:extractNativeLibs="true" >
+28-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-24:17
+28-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+29        <activity
+29-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+30            android:name="com.unity3d.player.UnityPlayerActivity"
+30-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+31            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+31-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+32            android:exported="true"
+32-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:433-456
+33            android:hardwareAccelerated="false"
+33-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+34            android:launchMode="singleTask"
+34-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+35            android:resizeableActivity="false"
+35-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+36            android:screenOrientation="fullUser"
+36-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+37            android:theme="@style/UnityThemeSelector" >
+37-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+38            <intent-filter>
+38-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+39-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+41-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+42            </intent-filter>
+43
+44            <meta-data
+44-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+45                android:name="unityplayer.UnityActivity"
+45-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+46                android:value="true" />
+46-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+47            <meta-data
+47-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+48                android:name="android.notch_support"
+48-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+49                android:value="true" />
+49-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+50        </activity>
+51
+52        <meta-data
+52-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+53            android:name="unity.splash-mode"
+53-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+54            android:value="0" />
+54-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+55        <meta-data
+55-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+56            android:name="unity.splash-enable"
+56-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+57            android:value="True" />
+57-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+58        <meta-data
+58-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+59            android:name="unity.launch-fullscreen"
+59-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+60            android:value="True" />
+60-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+61        <meta-data
+61-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+62            android:name="unity.allow-resizable-window"
+62-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+63            android:value="False" />
+63-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+64        <meta-data
+64-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+65            android:name="notch.config"
+65-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+66            android:value="portrait|landscape" />
+66-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+67
+68        <receiver
+68-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-113
+69            android:name="com.unity.androidnotifications.UnityNotificationManager"
+69-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:15-85
+70            android:exported="false" />
+70-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:86-110
+71        <receiver
+71-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-22:16
+72            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+72-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:15-99
+73            android:enabled="false"
+73-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:100-123
+74            android:exported="false" >
+74-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:124-148
+75            <intent-filter>
+75-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:7-21:23
+76                <action android:name="android.intent.action.BOOT_COMPLETED" />
+76-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-71
+76-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-68
+77            </intent-filter>
+78        </receiver>
+79
+80        <meta-data
+80-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-99
+81            android:name="com.unity.androidnotifications.exact_scheduling"
+81-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:16-78
+82            android:value="0" />
+82-->C:\Users\arnol\Game for unity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:79-96
+83    </application>
+84
+85</manifest>
